@@ -12,19 +12,20 @@
 </head>
 <body>
 
-
-   <nav class="white z-depth-0">
+  <!-- nav section startt -->
+   <nav class="white z-depth-0 top_navbar">
     <div class="nav-wrapper">
-      <a href="#!" class="blue-text">Home</a>
+      <a href="#!" class="blue-text hide-on-med-and-up">home</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+      <ul class=" hide-on-med-and-down blue-text">
+        <li><a href="/" class="blue-text">home</a></li>
+        <li><a href="/user.html" class="blue-text">user management</a></li>
+        <li><a href="http://farzadenayati.ir/" class="blue-text">farzadenayati</a></li>
+        <li><a href="https://new.farzadenayati.ir/" class="blue-text">new farzadenayati</a></li>
       </ul>
     </div>
   </nav>
+
 
   <ul class="sidenav" id="mobile-demo">
      <li><div class="user-view">
@@ -39,13 +40,24 @@
     <li><a href="#!">Second Link</a></li>
     <li><div class="divider"></div></li>
     <li><a class="subheader">Subheader</a></li>
-    <li><a class="waves-effect" href="#!">home</a></li>
-    <li><a class="waves-effect" href="#!">user</a></li>
-    <li><a href="sass.html">Sass</a></li>
-    <li><a href="badges.html">Components</a></li>
-    <li><a href="collapsible.html">Javascript</a></li>
-    <li><a href="mobile.html">Mobile</a></li>
+    <li><a class="waves-effect" href="/">home</a></li>
+    <li><a class="waves-effect" href="/user.html">user</a></li>
+  
   </ul>
+  <!-- nav section end -->
+
+
+
+  <!-- home section start  -->
+   <section class="flex-c-m flex-col sizefull p-r-20 p-l-20 p-t-100">
+    <img src="/assets/images/man.png" class="w-full max-w-300" >
+    <a class="waves-effect waves-light btn blue darken-3 w-full max-w-250 m-b-10 m-t-10 border-r">button1</a>
+    <a href="/user.html" class="waves-effect waves-light btn blue darken-3 w-full max-w-250 m-b-10 border-r">user management</a>
+
+   </section>
+    <!-- home section end  -->
+
+
     <script src="/assets/materialize/js/materialize.min.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>

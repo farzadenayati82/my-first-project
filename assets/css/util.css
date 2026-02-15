@@ -2432,6 +2432,8 @@
 */
 .bo-cir {border-radius: 50%;}
 
+.border-r{border-radius:5rem}
+
 .of-hidden {overflow: hidden;}
 
 .visible-false {visibility: hidden;}
