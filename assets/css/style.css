@@ -9,4 +9,26 @@
     align-items: center !important;
 }
 
+
+
+
 }
+.user_list_item.active .user_list_arrow_icon{
+
+    transform: rotate(180deg);
+   
+}
+
+
+.user_list_item.active {
+    background-color: rgb(208, 202, 195);
+}
+.user_list_item.active .collapsible-header {
+    background-color: rgb(153, 152, 150);
+}
+
+table.highlight > tbody > tr:hover {
+  background-color: #bbdefb;
+}
+
+
