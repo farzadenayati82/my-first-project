@@ -57,11 +57,11 @@
 
     <!-- content section start  -->
 
-    <section id="top_actions_section" class="row m-b-0">
+    <section id="top_actions_section" class="row m-b-0 container">
 
         <!-- add botton -->
         <div class="p-l-10 p-r-10 p-t-10 col s12 m2 l2">
-            <botton class="waves-effect waves-light btn blue darken-3 p-l-30 p-r-30 w-full border-r flex-c">
+            <botton id="add_user_botton" class="waves-effect waves-light btn blue darken-3 p-l-30 p-r-30 w-full border-r flex-c">
                 <i class="material-icons m-r-5">add</i>
                 add user
 
@@ -148,7 +148,9 @@
                 </div>
             </li>
             <li class="user_list_item">
-                <div class="collapsible-header"><i class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i> farzad ent</div>
+                <div class="collapsible-header"><i
+                        class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i>
+                    farzad ent</div>
                 <div class="collapsible-body">
                     <div class="p-all-5">
                         <span class="f-bold"> username :</span> <span>farzad ent</span>
@@ -164,7 +166,8 @@
                     </div>
 
                     <div class="p-all-5 flex-l-m">
-                        <span class="f-bold"> action:</span> <i class="material-icons red-text m-r-5 m-l-5"> delete_forever</i>
+                        <span class="f-bold"> action:</span> <i class="material-icons red-text m-r-5 m-l-5">
+                            delete_forever</i>
                         <i class="material-icons orange-text m-r-5 m-l-5"> edit</i>
                     </div>
 
@@ -174,99 +177,176 @@
             </li>
 
 
-         
+
 
         </ul>
-           <div class="hide-on-med-and-down show-on-med-and-up container">
+        <div class="hide-on-med-and-down show-on-med-and-up container">
 
-                <table class="striped centered highlight">
-                    <head>
-                        <tr>
-                            <th>#</th>
-                            <th>Name</th>
-                            <th>Username</th>
-                            <th>Email</th>
-                            <th>Address</th>
-                            <th>Action</th>
-                            
-                        
-                        </tr>
+            <table class="striped highlight">
+
+                <head>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Action</th>
 
 
-                    </head>
-
-                    <body>
-                        <tr>
-                            <td>1</td>
-                            <td>farzad</td>
-                            <td>farzad ent</td>
-                            <td>farzadenayatikr236@gmail.com</td>
-                            <td>kazeroon hazrati st</td>
-                            <td>
+                    </tr>
 
 
-                                 <i class="material-icons red-text m-r-5 m-l-5">delete_forever</i>
-                                <i class="material-icons orange-text m-r-5 m-l-5"> edit</i>
+                </head>
 
-                            </td>
-                        </tr>
-                        
-                        <tr>
-                            <td>1</td>
-                            <td>farzad</td>
-                            <td>farzad ent</td>
-                            <td>farzadenayatikr236@gmail.com</td>
-                            <td>kazeroon hazrati st</td>
-                            <td>
+                <body>
+                    <tr>
+                        <td>1</td>
+                        <td>farzad</td>
+                        <td>farzad ent</td>
+                        <td>farzadenayatikr236@gmail.com</td>
+                        <td>kazeroon hazrati st</td>
+                        <td>
 
 
-                                 <i class="material-icons red-text m-r-5 m-l-5">delete_forever</i>
-                                <i class="material-icons orange-text m-r-5 m-l-5"> edit</i>
+                            <i class="material-icons red-text m-r-5 m-l-5">delete_forever</i>
+                            <i class="material-icons orange-text m-r-5 m-l-5"> edit</i>
 
-                            </td>
-                        </tr>
-                        
-                        <tr>
-                            <td>1</td>
-                            <td>farzad</td>
-                            <td>farzad ent</td>
-                            <td>farzadenayatikr236@gmail.com</td>
-                            <td>kazeroon hazrati st</td>
-                            <td>
+                        </td>
+                    </tr>
 
-
-                                 <i class="material-icons red-text m-r-5 m-l-5">delete_forever</i>
-                                <i class="material-icons orange-text m-r-5 m-l-5"> edit</i>
-
-                            </td>
-                        </tr>
-                        
-                        <tr>
-                            <td>1</td>
-                            <td>farzad</td>
-                            <td>farzad ent</td>
-                            <td>farzadenayatikr236@gmail.com</td>
-                            <td>kazeroon hazrati st</td>
-                            <td>
+                    <tr>
+                        <td>1</td>
+                        <td>farzad</td>
+                        <td>farzad ent</td>
+                        <td>farzadenayatikr236@gmail.com</td>
+                        <td>kazeroon hazrati st</td>
+                        <td>
 
 
-                                 <i class="material-icons red-text m-r-5 m-l-5">delete_forever</i>
-                                <i class="material-icons orange-text m-r-5 m-l-5"> edit</i>
+                            <i class="material-icons red-text m-r-5 m-l-5">delete_forever</i>
+                            <i class="material-icons orange-text m-r-5 m-l-5"> edit</i>
 
-                            </td>
-                        </tr>
-                        
-                    </body>
+                        </td>
+                    </tr>
 
-                </table>
+                    <tr>
+                        <td>1</td>
+                        <td>farzad</td>
+                        <td>farzad ent</td>
+                        <td>farzadenayatikr236@gmail.com</td>
+                        <td>kazeroon hazrati st</td>
+                        <td>
+
+
+                            <i class="material-icons red-text m-r-5 m-l-5">delete_forever</i>
+                            <i class="material-icons orange-text m-r-5 m-l-5"> edit</i>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>farzad</td>
+                        <td>farzad ent</td>
+                        <td>farzadenayatikr236@gmail.com</td>
+                        <td>kazeroon hazrati st</td>
+                        <td>
+
+
+                            <i class="material-icons red-text m-r-5 m-l-5">delete_forever</i>
+                            <i class="material-icons orange-text m-r-5 m-l-5"> edit</i>
+
+                        </td>
+                    </tr>
+
+                </body>
+
+            </table>
+        </div>
+
+
+
+
+        <div
+            class="pagination_container container p-l-10 p-r-10 p-t-15 p-b-10 flex-sb-m bottom-0 pos-fixed left-0 right-0 z-depth-4 border-r-top">
+
+            <div class="pagination-item_count flex-l p-l-10 flex-l-m">
+                showing
+                <span class="m-l-5 m-r-5 max-w-50 ">
+                    <input type="number" class="blue-text darken-2 no-border center-align m-b-0 " value="10">
+                </span>
+                of
+                <span class="blue-text darken-2 m-l-5 m-r-5">100</span>
+
+
+            </div>
+
+
+            <div class="pagination_botton ">
+                <i
+                    class="material-icons blue darken-2 m-l-5 m-r-5 p-l-2 p-r-2 waves-effect waves-light white-text border-r">keyboard_arrow_left</i>
+                <i
+                    class="material-icons blue darken-2 m-l-5 m-r-5 p-l-2 p-r-2 waves-effect waves-light white-text border-r">keyboard_arrow_right</i>
+
             </div>
 
 
 
 
+        </div>
 
 
     </section>
+
+
+    <div class="add_user_modal_back dis-none"></div>
+    <div class="add_user_modal container border-r-top show trans-0-1">
+
+        <div class="row p-t-10 p-b-10 p-r-40 p-l-40 center-on-small-only">
+
+            <h5>
+
+                <i class="material-icons m-l-10 m-r-10 pos-relative top-4 ">person_add</i>
+                Add User
+
+            </h5>
+
+            <form>
+
+                <div class="input-field col s12">
+
+                    <input id="name" type="text" class="validate" />
+                    <label for="name">name: </label>
+
+                </div>
+
+                <div class="input-field col s12">
+
+                    <input id="username" type="text" class="validate" />
+                    <label for="username">username: </label>
+
+                </div>
+
+                <div class="input-field col s12">
+
+                    <input id="email" type="text" class="validate" />
+                    <label for="email">email: </label>
+
+                </div>
+
+
+                <botton class="waves-effect waves-light btn blue darken-1 w-full  max-w-250 border-r">
+
+                    submit
+
+                </botton>
+
+            </form>
+
+        </div>
+
+    </div>
 
     <!-- content  section end  -->
 
